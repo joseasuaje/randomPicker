@@ -1,0 +1,44 @@
+#bigBlock {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#firstBlock {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#secondBlock {
+  display: none;
+}
+
+#thirdBlock {
+  display: none;
+}
+
+#generateBtn {
+  background-color: green;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 20px;
+  box-shadow: 0 2px #999;
+}
+
+#generateBtn:hover {
+  background-color: darkgreen;
+}
+
+#generateBtn:active {
+  background-color: darkgreen;
+  box-shadow: 0 1px #666;
+  transform: translateY(1px);
+}
